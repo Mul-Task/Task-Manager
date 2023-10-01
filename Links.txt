@@ -3,3 +3,5 @@ Notion Link: https://www.notion.so/Task-Manager-abac2ad0ffc14f338822e1ffc46b9de1
 Figma Link: https://www.figma.com/file/Dl5jPWbCsnVHCXBLf5ebwJ/Task-Manager-Website?type=design&node-id=1%3A2&mode=design&t=gB4NE6KD8I8fhlMX-1
 
 Github Link: https://github.com/Mul-Task/Task-Manager.git
+
+Vercel Link: https://task-manager-zomthv171-banagsh0219.vercel.app/
