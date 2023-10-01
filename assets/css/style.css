@@ -1,0 +1,118 @@
+/* Root CSS*/
+body {
+    margin: 0;
+    line-height: normal;
+}
+
+:root {
+    /* fonts */
+    --font-inter: Inter;
+
+    /* font sizes */
+    --font-size-3xs: 0.63rem;
+    --font-size-xs: 0.75rem;
+    --font-size-mini: 0.94rem;
+    --font-size-mid: 1.06rem;
+    --font-size-lg: 1.13rem;
+    --font-size-xl: 1.25rem;
+    --font-size-6xl: 1.56rem;
+    --font-size-11xl: 1.88rem;
+    --font-size-31xl: 3.13rem;
+
+
+
+
+    /* Colors */
+    --color-white: #fff;
+    --color-black: #000;
+    --color-deepskyblue: #22a5ef;
+    --color-dimgray: #6f6f6f;
+    --color-whitesmoke: #f5f4f4;
+    --color-red: #f22626;
+    --color-gray: #fbfbfb;
+    --color-gold: #f2d226;
+    --color-limegreen: #28bd10;
+
+    /* Border radiuses */
+    --br-mini: 15px;
+    --br-base: 16px;
+}
+
+/* Root CSS*/
+
+/*Home */
+.desktop-home {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--color-white);
+}
+
+/* NavBar*/
+
+.navbar {
+    background-color: var(--color-whitesmoke);
+    width: 100vw;
+    height: 5rem;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-items{
+    display: inline-block;
+}
+
+.items{
+    padding-left: 15px;
+}
+
+.items a{
+    text-decoration: none;
+    color: var(--color-black);
+    /*display: inline-block;*/
+}
+
+
+.home,
+.about,
+.contact-us{
+    font-size: var(--font-size-xl);
+    padding: 10px 25px 20px 25px;
+
+}
+
+.profile{
+    display: inline-block;
+    /*padding-right: 40px;*/
+}
+
+.account-name {
+    font-size: var(--font-size-xl);
+    /*padding: 10px 20px 20px 20px;*/
+    text-decoration: none;
+    color: var(--color-black);
+}
+
+.share-icon{
+    /*padding-left: 20px;*/
+}
+/* NavBar*/
+
+/*Main Section*/
+.project-name{
+    font-size: var(--font-size-6xl);
+    padding-top: 20px;
+}
+/*Main Section*/
+
+.cards{
+    height: 100px;
+    padding: 20px 10px 20px 10px;
+}
+
+.card{
+    background: var(--color-whitesmoke);
+    height: 600px;
+    border-radius: 20px;
+}
